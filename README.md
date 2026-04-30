@@ -1,10 +1,29 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
-You are working for a property management company renting rooms and properties for short periods of 
-time on various rental platforms. You need to estimate the typical price for a given property based 
-on the price of similar properties. Your company receives new data in bulk every week. The model needs 
-to be retrained with the same cadence, necessitating an end-to-end pipeline that can be reused.
 
-In this project you will build such a pipeline.
+A reproducible MLflow + Weights & Biases pipeline that predicts NYC short-term rental prices from listing metadata. Built as part of the WGU Machine Learning DevOps course.
+
+## Project Links
+
+- **W&B Project:** https://wandb.ai/ignacioxfernandez014-westerna/nyc_airbnb
+- **GitHub Repository:** https://github.com/ifer-14/Project-Build-an-ML-Pipeline-Starter
+
+## Final Model Performance
+
+The production model (`random_forest_export:prod`) was selected via hyperparameter sweep:
+
+| Metric | Validation | Test |
+|---|---|---|
+| R² | 0.55 | 0.58 |
+| MAE | $33.86 | $33.40 |
+
+Test MAE is within $0.50 of validation MAE, indicating no overfitting.
+
+## Pipeline Visualization
+
+The full pipeline graph (data lineage) is viewable in W&B:
+https://wandb.ai/ignacioxfernandez014-westerna/nyc_airbnb/artifacts/model_export/random_forest_export/v2/lineage
+
+The pipeline runs 6 steps: download → basic_cleaning → data_check → data_split → train_random_forest → test_regression_model.
 
 ## Table of contents
 
