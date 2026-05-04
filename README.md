@@ -4,7 +4,10 @@ A reproducible MLflow + Weights & Biases pipeline that predicts NYC short-term r
 
 ## Project Links
 
-- **W&B Project:** https://wandb.ai/ignacioxfernandez014-westerna/nyc_airbnb
+- **W&B Read-Only Report (for reviewer access):[** https://wandb.ai/ignacioxfernandez014-westerna/nyc_airbnb/reports/NYC-Airbnb-Pipeline-Reviewer-Report-D501-Project-1---VmlldzoxNjc1NTc2MA?accessToken=opfd1khyjkb49vkv8g2pqgcz72d4t30823pjjqy16mm9b600njzgan9rsg8o18ay](https://wandb.ai/ignacioxfernandez014-westerna/nyc_airbnb/reports/NYC-Airbnb-Pipeline-Reviewer-Report-D501-Project-1---VmlldzoxNjc1NTc2MA?accessToken=opfd1khyjkb49vkv8g2pqgcz72d4t30823pjjqy16mm9b600njzgan9rsg8o18ay)
+
+- **W&B Project:** https://wandb.ai/ignacioxfernandez014-westerna/nyc_airbnb (Team-only visibility — see read-only report above)
+
 - **GitHub Repository:** https://github.com/ifer-14/Project-Build-an-ML-Pipeline-Starter
 
 ## Final Model Performance
